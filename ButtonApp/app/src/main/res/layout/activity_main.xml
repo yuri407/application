@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="59dp"
         android:layout_marginTop="129dp"
-        android:text="유리의 Button"
+        android:text="@string/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
