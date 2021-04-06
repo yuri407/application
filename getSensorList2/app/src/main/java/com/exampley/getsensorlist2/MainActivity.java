@@ -33,6 +33,5 @@ public class MainActivity extends AppCompatActivity {
             mTxtSensors.append("Sensor type :"+sensor.getType() + "\n\n");
         }
 
-
     }
 }
