@@ -24,5 +24,12 @@ public class MainActivity extends AppCompatActivity {
         sensorMgr = (SensorManager)getSystemService(SENSOR_SERVICE);
 
         sensorList = sensorMgr.getSensorList(Sensor.TYPE_ALL);
+        mTxtSensors.append("(# Sensor: " + sensorList.size()+")\n\n");
+        for(Sensor sensor : sensorList){
+            mTxtSensors.append("Sensor name :"+sensor.getName() + "\n");
+            mTxtSensors.append("Sensor type :"+sensor.getType() + "\n\n");
+        }
+        
+        
     }
 }
